@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body{
+  background: url(https://images.wallpaperscraft.com/image/book_hands_cup_200946_3840x2160.jpg);
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  margin-top: -43px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.heading{
+  font-weight: 500;
+}
+
+.credit{
+  margin-top: -15px;
+}
+
+.box{
+  margin-top: 170px;
+  padding: 1px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.myInput{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 37px;
+}
+
+.word{
+  font-weight: 500;
+}
+
+
+.input-field input:focus + label {
+   color: white !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid white !important;
+   box-shadow: 0 1px 0 0 white !important
+ }
+
+ .myButton button{
+  font-weight: 500;
+ }
+
+@media screen and (max-width:812px){
+
+  body{
+  background: url(https://i.pinimg.com/564x/8f/4b/a7/8f4ba72e31351bc73c22eb65223ae3be.jpg);
+  background-position:top;
+  background-size:cover;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .heading{
+    font-size: 60px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .myInput{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 35px;
+}
+
+  .box{
+  margin-top: 160px;
+  padding: 1px;
+  padding-bottom: 30px;
+  border-radius: 10px;
   }
+
 }
