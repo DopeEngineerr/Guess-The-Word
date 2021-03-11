@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Guess-The-Word/static/css/main.79ecc12d.chunk.css",
-    "main.js": "/Guess-The-Word/static/js/main.d7b6e3aa.chunk.js",
-    "main.js.map": "/Guess-The-Word/static/js/main.d7b6e3aa.chunk.js.map",
+    "main.js": "/Guess-The-Word/static/js/main.b46020dc.chunk.js",
+    "main.js.map": "/Guess-The-Word/static/js/main.b46020dc.chunk.js.map",
     "runtime-main.js": "/Guess-The-Word/static/js/runtime-main.213795a2.js",
     "runtime-main.js.map": "/Guess-The-Word/static/js/runtime-main.213795a2.js.map",
     "static/js/2.25812896.chunk.js": "/Guess-The-Word/static/js/2.25812896.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.213795a2.js",
     "static/js/2.25812896.chunk.js",
     "static/css/main.79ecc12d.chunk.css",
-    "static/js/main.d7b6e3aa.chunk.js"
+    "static/js/main.b46020dc.chunk.js"
   ]
 }
